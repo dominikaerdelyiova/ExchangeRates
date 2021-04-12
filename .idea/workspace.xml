@@ -3,8 +3,27 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="968eea3a-38f4-4d3d-9b72-2c5ce80401d2" name="Default Changelist" comment="added ApiRequest class">
+    <list default="true" id="968eea3a-38f4-4d3d-9b72-2c5ce80401d2" name="Default Changelist" comment="added JSON data from API">
+      <change afterPath="$PROJECT_DIR$/src/main/java/sk/kosickaakademia/erdelyiovad/exchange/Calculator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/sk/kosickaakademia/erdelyiovad/api/ApiRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sk/kosickaakademia/erdelyiovad/api/ApiRequest.java" afterDir="false" />
@@ -86,12 +105,31 @@
       <option name="project" value="LOCAL" />
       <updated>1617870486011</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="added JSON data from API">
+      <created>1617955153571</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1617955153571</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added ApiRequest class" />
-    <option name="LAST_COMMIT_MESSAGE" value="added ApiRequest class" />
+    <MESSAGE value="added JSON data from API" />
+    <option name="LAST_COMMIT_MESSAGE" value="added JSON data from API" />
   </component>
   <component name="WindowStateProjectService">
     <state x="163" y="0" key="#Project_Structure" timestamp="1617867113478">
@@ -102,6 +140,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1617954034486" />
+    <state x="413" y="111" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog" timestamp="1618217751430">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="111" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.1366.728@0.0.1366.728" timestamp="1618217751430" />
     <state x="549" y="262" key="Github.ShareDialog" timestamp="1617867981880">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -134,13 +176,21 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1617867860742" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1617955082245">
+    <state x="530" y="277" key="VCS.ChangelistChooser" timestamp="1618217715013">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1617955082245" />
+    <state x="530" y="277" key="VCS.ChangelistChooser/0.0.1366.728@0.0.1366.728" timestamp="1618217715013" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1618219463977">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1618219463977" />
     <state x="65" y="25" key="new project wizard" timestamp="1617867219308">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="65" y="25" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1617867219308" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1618216548217">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1618216548217" />
   </component>
 </project>

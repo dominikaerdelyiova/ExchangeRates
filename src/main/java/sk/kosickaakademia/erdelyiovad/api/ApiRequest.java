@@ -1,13 +1,13 @@
 package sk.kosickaakademia.erdelyiovad.api;
 
+import jdk.internal.org.objectweb.asm.tree.InsnList;
+
 import java.net.HttpURLConnection;
 import java.net.URL;
-import java.util.Map;
-import java.util.Scanner;
-import java.util.Set;
+import java.util.*;
 
 public class ApiRequest {
-    public Map getExchangeRates(Set<String> rates){
+    public Map getExchangeRates(HashSet<Object> rates){
 
         if(rates==null || rates.size() ==0)
             return null;
@@ -43,7 +43,7 @@ public class ApiRequest {
 
             //Using the JSON simple library parse the string into a json object
             JSONParser parse = new JSONParser();
-            JSONObject data_obj = (JSONObject) parse.parse(inline);
+            final JSONObject data_obj = (JSONObject) parse.parse(inline);
 
             //Get the required object from the above created object
             JSONObject obj = (JSONObject) data_obj.get("Global");
@@ -52,14 +52,15 @@ public class ApiRequest {
             System.out.println(obj.get("TotalRecovered"));
 
             class JSONArray<arr> {
-                arr = (JSONArray) data_obj.get("Countries");
+                arr= (JSONArray) data_obj.get("Countries");
             }
 
+            InsnList arr;
             for (int i = 0; i < arr.size(); i++) {
 
                 JSONObject new_obj = (JSONObject) arr.get(i);
 
-                if (new_obj.get("Slug").equals("albania")) {
+                if (Objects.equals(new_obj.get("Slug"), "albania")) {
                     System.out.println("Total Recovered: " + new_obj.get("TotalRecovered"));
                     break;
                 }
@@ -76,23 +77,23 @@ public class ApiRequest {
     }
 
       class JSONParser {
-        public Object parse(String inline) {
+        public void parse(String inline) {
         }
     }
 
     class JSONArray {
-        public int size() {
+        public void size() {
         }
     }
 }
 
     private class JSONParser {
-        public Object parse(String inline) {
+        public void parse(String inline) {
         }
     }
 
     private class JSONObject {
-        public int get(String totalRecovered) {
+        public void get(String totalRecovered) {
         }
     }
 }
